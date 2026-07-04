@@ -32,7 +32,7 @@ def all_off():
 def flash_led(led):
     led.on()
     sleep(0.45)
-    led.off(0.45)
+    led.off()
     sleep(0.2)
     
 def flash_all(times=3):
