@@ -9,7 +9,7 @@ led4 = LED(2)
 button1 = Button(21, pull_up=True)
 button2 = Button(20, pull_up=True)
 button3 = Button(16, pull_up=True)
-button4 = Button(11, pull_up=True)
+button4 = Button(9, pull_up=True)
 
 button1.when_pressed = lambda: print("Button 1")
 button2.when_pressed = lambda: print("Button 2")
